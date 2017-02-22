@@ -15,5 +15,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="39dp"></LinearLayout>
+        android:layout_marginTop="39dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/Titulo"
+            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNombre"
+            android:layout_weight="0.03"
+            android:fontFamily="cursive"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="@string/saludar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmdBoton"
+            android:layout_weight="0.03"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:fontFamily="cursive"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblMensaje"
+            android:layout_weight="0.03" />
+    </LinearLayout>
 </RelativeLayout>
