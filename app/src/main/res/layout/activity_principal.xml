@@ -39,7 +39,17 @@
             android:layout_weight="0.03"
             android:fontFamily="cursive"
             android:textSize="18sp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:hint="@string/Nombre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtApellido"
+            android:layout_weight="0.03"
+            android:hint="@string/Apellido" />
 
         <Button
             android:text="@string/saludar"

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">HolaMundo</string>
+    <string name="saludar">Hola</string>
+    <string name="parte_saludo">Hola</string>
     <string name="Titulo">Aplicación para saludar</string>
-    <string name="saludar">Saludar</string>
-    <string name="parte_saludo">Saludar</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
 </resources>
