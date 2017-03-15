@@ -37,9 +37,6 @@
             android:ems="10"
             android:id="@+id/txtNombre"
             android:layout_weight="0.03"
-            android:fontFamily="cursive"
-            android:textSize="18sp"
-            android:textAlignment="center"
             android:hint="@string/Nombre" />
 
         <EditText

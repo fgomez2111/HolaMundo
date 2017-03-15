@@ -5,4 +5,5 @@
     <string name="Titulo">Aplicación para saludar</string>
     <string name="Nombre">Nombre</string>
     <string name="Apellido">Apellido</string>
+    <string name="Bienvenido">Bienvenido</string>
 </resources>
