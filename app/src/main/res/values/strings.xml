@@ -6,4 +6,7 @@
     <string name="Nombre">Nombre</string>
     <string name="Apellido">Apellido</string>
     <string name="Bienvenido">Bienvenido</string>
+    <string name="parte_saludo2">Bienvenido a esta Aplicación</string>
+    <string name="error_1">Por favor escriba el nombre</string>
+    <string name="error_2">Por favor escriba el apellido</string>
 </resources>

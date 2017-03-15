@@ -7,4 +7,7 @@
     <string name="parte_saludo">Hi</string>
     <string name="saludar">Hi</string>
     <string name="Bienvenido">Welcome</string>
+    <string name="parte_saludo2">Welcome to this App</string>
+    <string name="error_1">Please type the name</string>
+    <string name="error_2">Please type the last name</string>
 </resources>
